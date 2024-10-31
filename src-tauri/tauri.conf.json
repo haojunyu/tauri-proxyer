@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-app",
+  "productName": "tauri-proxyer",
   "version": "0.1.0",
   "identifier": "com.yixuanju.proxyer",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "tauri-app",
+        "title": "tauri-proxyer",
         "width": 800,
         "height": 600
       }
