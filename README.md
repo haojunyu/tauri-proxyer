@@ -38,6 +38,23 @@ For iOS development, run:
 ```
 
 
+
+## proxyer
+
+pac 地址: https://raw.githubusercontent.com/thep0y/pac/main/blacklist.pac
+
+### windows
+
+```bash
+# 查询代理
+reg query "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoConfigURL
+# 设置代理
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoConfigURL /t REG_SZ /d "<pac地址>" /f
+# 关闭代理
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v AutoConfigURL /t REG_SZ /d "" /f
+```
+
+
 ## FAQ
 
 1. switch Developer role
