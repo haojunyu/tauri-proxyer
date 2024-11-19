@@ -22,4 +22,18 @@ tauri = { version = "2.0.6", features = [] }
 tauri-plugin-shell = "2"
 serde = { version = "1.0.215", features = ["derive"] }
 serde_json = "1.0.132"
+regex = "1"
+dirs = "5"
+reqwest = {version="0.11", default-features=false, features= ["json", "stream", "socks", "rustls-tls"] }
+tokio= {version="1", features= ["fs", "macros"] }
+tokio-util = {version="0.7", features= ["codec"] }
+futures-util = "0.3"
+thiserror="1"
+lazy_static="1"
+url="2"
+percent-encoding="2"
+log="0.4"
+simplelog="0.12"
+time= {version="0.3", features= ["formatting", "local-offset"] }
+zip="0.6"
 
